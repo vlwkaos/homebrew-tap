@@ -1,8 +1,8 @@
 class Rcmdb < Formula
   desc "TUI for Karabiner-Elements right_command key bindings"
   homepage "https://github.com/vlwkaos/karabiner-rcmd-binder"
-  url "https://github.com/vlwkaos/karabiner-rcmd-binder/releases/download/v0.2.1/rcmdb-0.2.1-macos-arm64.tar.gz"
-  sha256 "PLACEHOLDER_WILL_BE_AUTO_FILLED"
+  url "https://github.com/v0.2.1/rcmdb-0.2.1-macos-arm64.tar.gz"
+  sha256 "0a8d004aa2dc263088fb16a0d2a65636be7e03485a9333246992ba7e90d00f22"
   version "0.2.1"
   
   depends_on :macos
