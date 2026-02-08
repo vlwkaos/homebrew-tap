@@ -1,8 +1,8 @@
 class Gifer < Formula
   desc "TUI application for converting videos to GIFs"
   homepage "https://github.com/vlwkaos/gifer"
-  url "https://github.com/vlwkaos/gifer/releases/download/v0.2.1/gifer-0.2.1-darwin-arm64.tar.gz"
-  sha256 "21a2af1373fc9c130728e0413ff44782e42c8de7ee4105611cce32c722a38e91"
+  url "https://github.com/vlwkaos/gifer/releases/download/v0.2.2/gifer-0.2.2-darwin-arm64.tar.gz"
+  sha256 "cfa0d55cb791f1559f3bbfa4709214c4f36b9f26dcdfb0507c4924e6482efb99"
   license "MIT"
 
   def install
