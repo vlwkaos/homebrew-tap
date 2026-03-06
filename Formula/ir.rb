@@ -1,9 +1,9 @@
 class Ir < Formula
   desc "Local markdown search engine with hybrid BM25 + vector search"
   homepage "https://github.com/vlwkaos/ir"
-  url "https://github.com/vlwkaos/ir/releases/download/v0.2.0/ir-0.2.0-darwin-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "9b9536a27c5c7151620273a0d3b5c30e2e2c30b30379813fb4bbdc6b78f75a39"
+  url "https://github.com/vlwkaos/ir/releases/download/v0.4.0/ir-0.4.0-darwin-arm64.tar.gz"
+  version "0.4.0"
+  sha256 "98800884cc11aa571195197eb3b7a0ba8a5597b4cdfc9c77eac7269f613ebad9"
   license "MIT"
 
   def install
