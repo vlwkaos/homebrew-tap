@@ -3,7 +3,7 @@ class Ir < Formula
   homepage "https://github.com/vlwkaos/ir"
   url "https://github.com/vlwkaos/ir/releases/download/v0.6.3/ir-0.6.3-darwin-arm64.tar.gz"
   version "0.6.3"
-  sha256 "6fadc68c982668e2337f4175cf329a2d44f9c8bf99d854299f50524a83b2294e"
+  sha256 "8b7545329970793798cd0c61788699c5e0c9d34e987d7a32dd7ce7abe576cc03"
   license "MIT"
 
   def install
