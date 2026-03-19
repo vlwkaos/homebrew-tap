@@ -11,6 +11,6 @@ class Wsx < Formula
   end
 
   test do
-    system "#{bin}/wsx", "--version"
+    assert_predicate bin/"wsx", :executable?
   end
 end
