@@ -1,9 +1,9 @@
 class Wsx < Formula
   desc "TUI workspace manager — git worktrees + tmux sessions in one tree"
   homepage "https://github.com/vlwkaos/wsx"
-  url "https://github.com/vlwkaos/wsx/releases/download/v0.12.1/wsx-0.12.1-darwin-universal.tar.gz"
-  version "0.12.1"
-  sha256 "028325bb48695e44ff8f49d8f80ad820e8ce29e815b7f8c8fcc21ca50aa17051"
+  url "https://github.com/vlwkaos/wsx/releases/download/v0.13.0/wsx-0.13.0-darwin-universal.tar.gz"
+  version "0.13.0"
+  sha256 "16a0b98c2a66e6422782e53ceab3242f688a18e3735e532c9b6fdad2d08214e3"
   license "MIT"
 
   def install
