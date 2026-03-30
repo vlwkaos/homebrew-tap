@@ -8,7 +8,7 @@ class Ir < Formula
 
   bottle do
     root_url "https://github.com/vlwkaos/ir/releases/download/v0.6.7"
-    sha256 cellar: :any_skip_relocation, all: "b69d7a784932bcb6e8bf36ef728ba18d3a3d179a2f81aa1bb36be78b1a1816f1"
+    sha256 cellar: :any_skip_relocation, all: "880a9e437a5338d4c1c6a2c062c077e370e990714aca489d6ec80cae179a2dd9"
   end
 
   def install
