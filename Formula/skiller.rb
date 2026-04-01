@@ -1,14 +1,14 @@
 class Skiller < Formula
   desc "Symlink manager for AI tool skill bundles"
   homepage "https://github.com/vlwkaos/skiller"
-  url "https://github.com/vlwkaos/skiller/releases/download/v0.2.0/skiller-0.2.0-darwin-universal.tar.gz"
-  version "0.2.0"
-  sha256 "f4f59e101cfad2b92bbba0715aa2414479203b9de10c113e2c3d144909a5e07e"
+  url "https://github.com/vlwkaos/skiller/releases/download/v0.2.1/skiller-0.2.1-darwin-universal.tar.gz"
+  version "0.2.1"
+  sha256 "4956bf243b1dcc171228b7ba3640077498ae4733aec49c41bcbda42f4a6e98d3"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vlwkaos/skiller/releases/download/v0.2.0"
-    sha256 cellar: :any_skip_relocation, all: "dd3ff641a6372720180271df01790d60ea84995f10298ecc2409b3f2e4cb6873"
+    root_url "https://github.com/vlwkaos/skiller/releases/download/v0.2.1"
+    sha256 cellar: :any_skip_relocation, all: "ab7798e311c35e8bd2200bc15972c2538da728cc534420a3a0418d05f99aa6c2"
   end
 
   def install
