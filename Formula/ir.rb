@@ -1,14 +1,14 @@
 class Ir < Formula
   desc "Local markdown semantic search with hybrid BM25+vector retrieval and LLM reranking"
   homepage "https://github.com/vlwkaos/ir"
-  url "https://github.com/vlwkaos/ir/releases/download/v0.6.7/ir-0.6.7-darwin-universal.tar.gz"
-  version "0.6.7"
-  sha256 "ba5d213106f8655961fdc3096cbb1ea676525feff6b39136b626a3463a759e67"
+  url "https://github.com/vlwkaos/ir/releases/download/v0.7.0/ir-0.7.0-darwin-universal.tar.gz"
+  version "0.7.0"
+  sha256 "7446b3fc52d8e44bafb1b636c1a6c2301dcadb240831c0675170181c45809443"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vlwkaos/ir/releases/download/v0.6.7"
-    sha256 cellar: :any_skip_relocation, all: "880a9e437a5338d4c1c6a2c062c077e370e990714aca489d6ec80cae179a2dd9"
+    root_url "https://github.com/vlwkaos/ir/releases/download/v0.7.0"
+    sha256 cellar: :any_skip_relocation, all: "b70e51125897b2d6f514185f89e1a20d4f35023848c3bfcc143611b32319b9f6"
   end
 
   def install
