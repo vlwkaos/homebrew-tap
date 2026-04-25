@@ -14,21 +14,28 @@ brew install rcmdb
 - **rcmdb** - TUI for Karabiner-Elements right_command key bindings
   - Homepage: https://github.com/vlwkaos/karabiner-rcmd-binder
   - Description: Configure rcmd+key bindings with app launching, URL tab focusing, and action cycling
+- **magicmask** - Global Magic Trackpad crop suppressor
+  - Homepage: https://github.com/vlwkaos/MagicMask
+  - Description: Menu bar utility for suppressing outside-crop Magic Trackpad touches
 
 ## Usage
 
 ```bash
 # Install
 brew install rcmdb
+brew install magicmask
 
 # Run
 rcmdb
+magicmask
 
 # Update
 brew upgrade rcmdb
+brew upgrade magicmask
 
 # Uninstall
 brew uninstall rcmdb
+brew uninstall magicmask
 ```
 
 ## Verification
