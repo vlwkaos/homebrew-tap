@@ -1,0 +1,20 @@
+{
+  "activationMode" : "selectedDeviceConnected",
+  "cropRect" : {
+    "maxX" : 0.8,
+    "maxY" : 0.75,
+    "minX" : 0.2,
+    "minY" : 0
+  },
+  "enabled" : true,
+  "onlyWhileTyping" : true,
+  "selectedTriggerDevice" : {
+    "isBuiltIn" : false,
+    "product" : "Magic Trackpad",
+    "productID" : 804,
+    "transport" : "Bluetooth",
+    "vendorID" : 76
+  },
+  "suppressScroll" : true,
+  "typingCooldownMilliseconds" : 400
+}
