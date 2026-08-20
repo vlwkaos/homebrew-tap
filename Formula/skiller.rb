@@ -1,8 +1,8 @@
 class Skiller < Formula
   desc "Declarative project and global Agent Skills manager"
   homepage "https://github.com/vlwkaos/skiller"
-  url "https://github.com/vlwkaos/skiller/releases/download/v0.1.0/skiller-0.1.0-darwin-universal-8dfb474.tar.gz"
-  sha256 "de50fc00ce6322097cf88bc64c638e610c2a303fc16af77e897ad3218eb9ef5f"
+  url "https://github.com/vlwkaos/skiller/releases/download/v0.1.1/skiller-0.1.1-darwin-universal-b2d4dde.tar.gz"
+  sha256 "6d86e93e0f1c8c7dd8f9522a9045c50540fc805d55e6af81dbecce1c94f75497"
   license "MIT"
 
   def install
