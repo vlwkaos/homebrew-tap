@@ -1,14 +1,14 @@
 class Skiller < Formula
   desc "Declarative project and global skill management over the Vercel Skills CLI"
   homepage "https://github.com/vlwkaos/skiller"
-  url "https://github.com/vlwkaos/skiller/releases/download/v0.8.0/skiller-0.8.0-darwin-universal.tar.gz"
-  version "0.8.0"
-  sha256 "0036f073f2c8cc2cab665551cd995e3f0afaa9f3d9d9d6a44d3ab93d9c5db7ba"
+  url "https://github.com/vlwkaos/skiller/releases/download/v0.8.1/skiller-0.8.1-darwin-universal.tar.gz"
+  version "0.8.1"
+  sha256 "542bca29ad3b5be65efb4633bbc462363cee703e73c391849b233eafa215d8f6"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vlwkaos/skiller/releases/download/v0.8.0"
-    sha256 cellar: :any_skip_relocation, all: "aa73d3ebc91fa40abc2182a08eaadecd2f0a7316ce6a224e11b45222d1c06875"
+    root_url "https://github.com/vlwkaos/skiller/releases/download/v0.8.1"
+    sha256 cellar: :any_skip_relocation, all: "f837235137b7f4609b0bf285acfabba7d2b35080dee6bb677ff13e2a66d01273"
   end
 
   def install
