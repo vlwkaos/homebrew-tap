@@ -2,7 +2,6 @@ class Skiller < Formula
   desc "Declarative project and global skill management over the Vercel Skills CLI"
   homepage "https://github.com/vlwkaos/skiller"
   url "https://github.com/vlwkaos/skiller/releases/download/v0.11.0/skiller-0.11.0-darwin-universal.tar.gz"
-  version "0.11.0"
   sha256 "528ed3005c4da8084002d00b2c83ec5fef18b58347817722ffab86faca9bb97d"
   license "MIT"
 
