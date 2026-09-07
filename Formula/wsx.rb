@@ -1,13 +1,14 @@
 class Wsx < Formula
-  desc "TUI workspace manager — git worktrees + tmux sessions in one tree"
+  desc "Project-first terminal workspace manager for Git worktrees"
   homepage "https://github.com/vlwkaos/wsx"
-  url "https://github.com/vlwkaos/wsx/releases/download/v0.20.0/wsx-0.20.0-darwin-universal.tar.gz"
-  sha256 "1d583c457c0100f20f7475cbe4d3611ba2cb05cc0caa289f0c221efd972229ac"
+  url "https://github.com/vlwkaos/wsx/releases/download/v0.22.0/wsx-0.22.0-darwin-universal.tar.gz"
+  sha256 "4cf8cffbdc35b5d3e4e99b962202a15f92505089aaad4ff7deb944904ac48dfd"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vlwkaos/wsx/releases/download/v0.20.0"
-    sha256 cellar: :any_skip_relocation, all: "9ec3fc715dae1352e6890d42655bdf5d7a99ed3da830bd5e60513534cc258be9"
+    root_url "https://github.com/vlwkaos/wsx/releases/download/v0.22.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b79b807b8f8c8edccfeabd9945322fd08452829334852e47f44120c57504e5e0"
+    sha256 cellar: :any_skip_relocation, sequoia:       "bfc470f30690ca63ee98b84fc89976c1beb4d1767969744202b0d58a11decfe3"
   end
 
   def install
