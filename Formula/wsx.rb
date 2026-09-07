@@ -7,8 +7,8 @@ class Wsx < Formula
 
   bottle do
     root_url "https://github.com/vlwkaos/wsx/releases/download/v0.22.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b79b807b8f8c8edccfeabd9945322fd08452829334852e47f44120c57504e5e0"
-    sha256 cellar: :any_skip_relocation, sequoia:       "bfc470f30690ca63ee98b84fc89976c1beb4d1767969744202b0d58a11decfe3"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c7657c805ae660924430617a4fe5411694e53ebece0ff85bc36d40f2dbddcf40"
+    sha256 cellar: :any_skip_relocation, sequoia:       "addeda780addaaf361f2b10dc7861e4325ee94025c642afc2eb70da57a78f03a"
   end
 
   def install
