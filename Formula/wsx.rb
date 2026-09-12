@@ -1,14 +1,14 @@
 class Wsx < Formula
   desc "Project-first terminal workspace manager for Git worktrees"
   homepage "https://github.com/vlwkaos/wsx"
-  url "https://github.com/vlwkaos/wsx/releases/download/v0.25.0/wsx-0.25.0-darwin-universal.tar.gz"
-  sha256 "72d91647d825430c4127b18c362f5bf8bf24ce370d0af5cc70f19c0eb2b1bcef"
+  url "https://github.com/vlwkaos/wsx/releases/download/v0.26.0/wsx-0.26.0-darwin-universal.tar.gz"
+  sha256 "190aa58aaa1ac52f1e3397830a40ddca583072fa27bc43df83940194d157dfe7"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vlwkaos/wsx/releases/download/v0.25.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ce6dee4a5c05a93e9fe842a14316194967f2377b01c287b84b2085e6f1229423"
-    sha256 cellar: :any_skip_relocation, sequoia:       "99aacdcac1d3771d2be3ce7b72ffe9ad2c43f369df0af57c0ac89a3add1132c4"
+    root_url "https://github.com/vlwkaos/wsx/releases/download/v0.26.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c089ec167ed195d875bebd59c7b92e78f0f4db3b67556214542298d131f182e2"
+    sha256 cellar: :any_skip_relocation, sequoia:       "135a21aa95da05389584b0db8a6d990b2a57bd752cc5d66d25e0bdfc68957b19"
   end
 
   def install
