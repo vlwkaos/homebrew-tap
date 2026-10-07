@@ -1,8 +1,8 @@
 class Skiller < Formula
-  desc "Declarative project and global skill management over the Vercel Skills CLI"
+  desc "Global Agent Skill catalogs over the Vercel Skills CLI"
   homepage "https://github.com/vlwkaos/skiller"
-  url "https://github.com/vlwkaos/skiller/releases/download/v0.15.0/skiller-0.15.0-darwin-universal.tar.gz"
-  sha256 "e90e3566c192999842dec734b1b7fe9dedf24daaa6f687debbcafb63d720559c"
+  url "https://github.com/vlwkaos/skiller/releases/download/v0.16.0/skiller-0.16.0-darwin-universal.tar.gz"
+  sha256 "a3a271de7b1650891059ea8aa6585dc589ec84d35e60958f5888fbed6519fcbf"
   license "MIT"
 
   def install
@@ -10,6 +10,7 @@ class Skiller < Formula
   end
 
   test do
-    assert_predicate bin/"skiller", :executable?
+    assert_match "skiller 0.16.0", shell_output("#{bin}/skiller --version")
+    assert_match "Reconcile every registered catalog skill globally", shell_output("#{bin}/skiller --help")
   end
 end
